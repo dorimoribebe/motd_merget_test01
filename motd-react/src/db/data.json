@@ -1,0 +1,10 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "hip": ["hip", 90],
+      "casual": ["casual", 10],
+      "image": "https://cdn.pixabay.com/photo/2016/11/23/17/25/woman-1853939_1280.jpg"
+    }
+  ]
+}

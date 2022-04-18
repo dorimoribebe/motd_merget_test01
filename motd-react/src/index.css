@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Cafe24Ohsquareair";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+}
+
+.App {
+  text-align: center;
+  font-family: "Cafe24Ohsquareair";
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.header {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  margin: 20px;
+}
+
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.card {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 9px 9px 18px #c4c4c4, -9px -9px 18px #ffffff;
+  max-width: 1000px;
+  min-width: 280px;
+  flex-wrap: wrap;
+}
+
+.home > .ai-img {
+  width: 200px;
+  animation: rotate_image 8s linear infinite;
+  transform-origin: 50% 50%;
+  padding: 15px;
+}
+.link-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-right: 10px;
+  padding-top: 50px;
+}
+
+.link-icon.twitter {
+  background-repeat: no-repeat;
+}
+.link-icon.facebook {
+  background-repeat: no-repeat;
+}
+.link-icon.kakao {
+  background-repeat: no-repeat;
+}
+.link-icon.link {
+  background-repeat: no-repeat;
+}
+.link-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.share-btn {
+  background-color: inherit;
+  border: 0;
+  outline: 0;
+}
+
+.button {
+  width: fit-content;
+  padding: 5px 10px 5px 10px;
+  border-radius: 43px;
+  background: #8fa5e5;
+  box-shadow: 5px 5px 10px #6e7fb0, -5px -5px 10px #b0cbff;
+  text-align: center;
+  height: 1%;
+  margin: 5% auto;
+  border: none;
+}
+
+.output {
+}
+
+.output-img {
+  width: 500px;
+  object-fit: cover;
+}
+
+.share-box span {
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+
+  border-radius: 5px;
+
+  color: #ffffff;
+  font-size: 12px;
+
+  margin-bottom: 10px;
+  top: 0;
+  padding: 7px 12px;
+  position: absolute;
+  width: fit-content;
+  min-width: 50px;
+  max-width: 300px;
+  word-wrap: break-word;
+
+  z-index: 9999;
+}
+
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
